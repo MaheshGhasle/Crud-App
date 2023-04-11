@@ -1,0 +1,246 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+/* -------------------header section-------------- */
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600px;
+    /* background-color: chartreuse; */
+    border-bottom: 1px solid silver;
+    
+}
+
+.header-menu ul li a:hover{
+    color: #82178D;
+}
+
+.header-menu ul li a{
+    color: #666666;
+}
+
+.header-menu .logo{
+    width: 100px;
+    height: 60px;
+    background-color: brown;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.header-menu ul{
+    padding-right: 120px;
+    padding-top: 30px;
+}
+
+.header-menu ul li{
+    display: inline-block;
+}
+
+.header-menu ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* background-color: black; */
+    }
+
+.header-content{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 18%;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.header-content .para{
+    width: 700px;
+    height: 600px;
+    /* background-color: blue; */
+    padding-right: 100px;
+
+}
+
+.header-content .para h2{
+    font-size: 53px;
+    font-weight: 800;
+    line-height: 68.99px;
+    color: #0C71C3;
+    text-align:left ;
+    margin-top: 50px;
+}
+
+.header-content .para p{
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 36px;
+    margin-top: 30px;
+
+}
+
+.sign-up{
+    width: 161px;
+    height: 49px;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+.sign-up:hover{
+    background-color: #2CBD75;
+    color: whitesmoke;
+}
+
+.header-content .image{
+    width: 60%;
+    height: 600px;
+    background-image: url(/public/assets/Assessment-Tool.webp);
+    background-size:100% 98% ;
+    background-position:cover;
+    background-repeat: no-repeat;
+    /* margin-left: 200px; */
+    /* border: 1px solid black; */
+    
+}
+
+/* ----------------------------section 1---------------- */
+
+.sec1{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.sec-count{
+    width: 1080px;
+    height: 220px;
+    margin-left: 190px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 50px;
+}
+
+.num{
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.sec-count .num h2{
+    font-size: 63px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #03053E;
+}
+
+.num p{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #333333;
+}
+
+.sec-column{
+    /* border: 1px solid black; */
+    height: 564px;
+    display: flex;
+    
+    padding: 27px 120px;
+}
+
+.sec-column .col-image{
+    width: 610px;
+    height: 451px;
+    /* border: 1px solid black; */
+    background-image: url(/public/assets/conducting-exam-easier.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-column .col1{
+    width: 510px;
+    height: 510px;
+    /* border: 1px solid black; */
+    margin-left: 100px;
+}
+
+.sec-column .col1 .p1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #0000FF;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sec-column .col1 h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 10px;
+
+}
+
+.sec-column .col1 .p2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.sec-column .col1 a{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    padding-bottom: 10px;
+}
+
+.sec-column .col1 hr{
+    margin-top: 15px;
+
+}
+
+/* ------------------------section 2 ----------------------------- */
+
+.sec2{
+    width: 100vw;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.sec2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 100px;
+}
+
+.sec2 .row{
+    height: 325px;
+    border: 1px solid black;
+    width: 1080px;
+    padding: 100px 200px;
+    display: flex;
+}

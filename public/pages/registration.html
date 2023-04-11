@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-project</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>project</title>
+
+        <link rel="stylesheet" href="/style/style.css">
+    </head>
+
+    <body>
+        <div class="main-container">
+            <div class="heading">
+                <h2>Register Here</h2>
+            </div>
+            <div class="form-container">
+                <!-- <form action="" id="form-detail" method="POST"> -->
+                <form action="" id="form-detail" method="POST" onsubmit=" return validateform()">
+                    <div class="form-content" id="name">
+                        <label for="fname" class="lb">Name&nbsp;</label><br><input type="text" name="name" id="f-name"
+                            class="common" placeholder="Name..."><br>
+                        <span id="massage" class="demo"></span>
+                    </div>
+
+                    <div class="form-content" id="email">
+                        <label for="email" class="lb">Email&nbsp;</label><br><input type="text" name="email"
+                            id="f-email" class="common" placeholder="Email address..."><br>
+                        <span id="massage-1" class="demo"></span>
+                    </div>
+
+                    <div class="form-content" id="phone">
+                        <label for="phone" class="lb">Phone number&nbsp;</label><br><input type="phone" name="phone"
+                            id="f-phone" class="common" placeholder="Phone..."><br>
+                        <span id="massage-2" class="demo"></span>
+                    </div>
+
+                    <div class="form-content" id="password">
+                        <label for="password" class="lb">Password&nbsp;</label><br><input type="password"
+                            name="password" id="f-password" class="common" placeholder="Password..."><br>
+                        <span id="massage-3" class="demo"></span>
+                    </div>
+
+                    <div class="form-content" id="cnfpassword">
+                        <label for="cnfpassword" class="lb">Confirm password&nbsp;</label><br><input type="password"
+                            name="cnfpassword" id="f-cnfpassword" class="common" placeholder="Confirm password..."><br>
+                        <span id="massage-4" class="demo"></span>
+                    </div>
+
+                    <input type="submit" value="Submit" id="btn"><input type="reset" value="Reset" id="btn-1">
+
+                </form>
+            </div>
+        </div>
+
+        <script src="/script/script.js"></script>
+    </body>
+
+    </html>
